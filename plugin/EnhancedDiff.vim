@@ -16,9 +16,9 @@
 let s:cpo= &cpo
 if exists("g:loaded_enhanced_diff") || &cp
     finish
-elseif v:version < 704
+elseif v:version < 703
     echohl WarningMsg
-    echomsg "The EnhancedDiff Plugin needs at least a Vim version 7.4"
+    echomsg "The EnhancedDiff Plugin needs at least a Vim version 7.3"
     echohl Normal
 endif
 set cpo&vim
